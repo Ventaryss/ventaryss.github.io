@@ -52,7 +52,7 @@ permalink: /en/projects/ephos-core/
 </section>
 
 <!-- Key Features -->
-<section class="py-20 bg-gray-50 dark:bg-dark-bg">
+<section class="py-20 bg-gray-100 dark:bg-dark-navbar">
     <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-center mb-16 text-portfolio-violet">
             <i class="fas fa-star mr-3"></i>Key Features
@@ -60,7 +60,7 @@ permalink: /en/projects/ephos-core/
         
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- CRM -->
-            <div class="bg-white dark:bg-dark-navbar rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
+            <div class="bg-white dark:bg-dark-main rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
                 <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
                     <i class="fas fa-users text-white text-3xl"></i>
                 </div>
@@ -71,7 +71,7 @@ permalink: /en/projects/ephos-core/
             </div>
 
             <!-- Audits -->
-            <div class="bg-white dark:bg-dark-navbar rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
+            <div class="bg-white dark:bg-dark-main rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
                 <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
                     <i class="fas fa-shield-alt text-white text-3xl"></i>
                 </div>
@@ -82,7 +82,7 @@ permalink: /en/projects/ephos-core/
             </div>
 
             <!-- Finance -->
-            <div class="bg-white dark:bg-dark-navbar rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
+            <div class="bg-white dark:bg-dark-main rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
                 <div class="w-16 h-16 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4">
                     <i class="fas fa-euro-sign text-white text-3xl"></i>
                 </div>
@@ -93,7 +93,7 @@ permalink: /en/projects/ephos-core/
             </div>
 
             <!-- Communication -->
-            <div class="bg-white dark:bg-dark-navbar rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
+            <div class="bg-white dark:bg-dark-main rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
                 <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mb-4">
                     <i class="fas fa-envelope text-white text-3xl"></i>
                 </div>
@@ -104,7 +104,7 @@ permalink: /en/projects/ephos-core/
             </div>
 
             <!-- Integrations -->
-            <div class="bg-white dark:bg-dark-navbar rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
+            <div class="bg-white dark:bg-dark-main rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
                 <div class="w-16 h-16 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center mb-4">
                     <i class="fas fa-plug text-white text-3xl"></i>
                 </div>
@@ -115,7 +115,7 @@ permalink: /en/projects/ephos-core/
             </div>
 
             <!-- Reporting -->
-            <div class="bg-white dark:bg-dark-navbar rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
+            <div class="bg-white dark:bg-dark-main rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow">
                 <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center mb-4">
                     <i class="fas fa-file-pdf text-white text-3xl"></i>
                 </div>
@@ -135,55 +135,12 @@ permalink: /en/projects/ephos-core/
             <i class="fas fa-code mr-3"></i>Technical Architecture
         </h2>
         
-        <div class="grid md:grid-cols-2 gap-8">
-            <!-- Tech Stack -->
-            <div class="bg-white dark:bg-dark-navbar rounded-2xl shadow-xl p-8">
-                <h3 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
-                    <i class="fas fa-layer-group mr-2 text-purple-500"></i>Tech Stack
-                </h3>
-                <ul class="space-y-3">
-                    <li class="flex items-center text-gray-700 dark:text-gray-300">
-                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                        <span><strong>Backend:</strong>&nbsp;Symfony 6.4 LTS + PHP 8.2</span>
-                    </li>
-                    <li class="flex items-center text-gray-700 dark:text-gray-300">
-                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                        <span><strong>Frontend:</strong>&nbsp;Tailwind CSS + Alpine.js</span>
-                    </li>
-                    <li class="flex items-center text-gray-700 dark:text-gray-300">
-                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                        <span><strong>Database:</strong>&nbsp;PostgreSQL + Doctrine ORM</span>
-                    </li>
-                    <li class="flex items-center text-gray-700 dark:text-gray-300">
-                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                        <span><strong>Server:</strong>&nbsp;Nginx + PHP-FPM</span>
-                    </li>
-                    <li class="flex items-center text-gray-700 dark:text-gray-300">
-                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                        <span><strong>AI:</strong>&nbsp;OpenAI GPT-4 (ZENITH)</span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Modules -->
-            <div class="bg-white dark:bg-dark-navbar rounded-2xl shadow-xl p-8">
-                <h3 class="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
-                    <i class="fas fa-puzzle-piece mr-2 text-purple-500"></i>11 Business Modules
-                </h3>
-                <ul class="space-y-2 text-gray-700 dark:text-gray-300">
-                    <li><i class="fas fa-cube text-purple-500 mr-2"></i>Core (Users, Config, Tags)</li>
-                    <li><i class="fas fa-cube text-blue-500 mr-2"></i>CRM (Clients, Projects)</li>
-                    <li><i class="fas fa-cube text-purple-500 mr-2"></i>Audit (Audits, Frameworks)</li>
-                    <li><i class="fas fa-cube text-emerald-500 mr-2"></i>Finance (Invoices, URSSAF)</li>
-                    <li><i class="fas fa-cube text-orange-500 mr-2"></i>Communication (Emails, Calendar)</li>
-                    <li><i class="fas fa-cube text-cyan-500 mr-2"></i>Integration (29 services)</li>
-                    <li><i class="fas fa-cube text-red-500 mr-2"></i>Reporting (PDF, Exports)</li>
-                    <li><i class="fas fa-cube text-yellow-500 mr-2"></i>Notification (Real-time)</li>
-                    <li><i class="fas fa-cube text-indigo-500 mr-2"></i>AuditTrail (Traceability)</li>
-                    <li><i class="fas fa-cube text-pink-500 mr-2"></i>Collaboration (Comments)</li>
-                    <li><i class="fas fa-cube text-gray-500 mr-2"></i>FileManagement (Uploads)</li>
-                </ul>
-            </div>
+        <div class="bg-white dark:bg-dark-main rounded-2xl shadow-xl p-12 text-center max-w-2xl mx-auto">
+            <i class="fas fa-lock text-6xl text-purple-500 mb-6"></i>
+            <h3 class="text-2xl font-bold mb-4 text-gray-800 dark:text-white">Confidential Information</h3>
+            <p class="text-gray-600 dark:text-gray-400">
+                Technical architecture details are confidential and cannot be publicly disclosed.
+            </p>
         </div>
     </div>
 </section>
@@ -197,20 +154,20 @@ permalink: /en/projects/ephos-core/
         
         <div class="grid md:grid-cols-4 gap-8">
             <div class="text-center">
-                <div class="text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">28</div>
-                <div class="text-gray-600 dark:text-gray-400">Doctrine Entities</div>
+                <div class="text-5xl font-bold text-purple-600 dark:text-purple-400 mb-2">11</div>
+                <div class="text-gray-600 dark:text-gray-400">Business Modules</div>
             </div>
             <div class="text-center">
-                <div class="text-5xl font-bold text-blue-600 dark:text-blue-400 mb-2">21</div>
-                <div class="text-gray-600 dark:text-gray-400">Controllers</div>
-            </div>
-            <div class="text-center">
-                <div class="text-5xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">29</div>
+                <div class="text-5xl font-bold text-blue-600 dark:text-blue-400 mb-2">29</div>
                 <div class="text-gray-600 dark:text-gray-400">Integrations</div>
             </div>
             <div class="text-center">
-                <div class="text-5xl font-bold text-orange-600 dark:text-orange-400 mb-2">11</div>
-                <div class="text-gray-600 dark:text-gray-400">Business Modules</div>
+                <div class="text-5xl font-bold text-emerald-600 dark:text-emerald-400 mb-2">∞</div>
+                <div class="text-gray-600 dark:text-gray-400">Possibilities</div>
+            </div>
+            <div class="text-center">
+                <div class="text-5xl font-bold text-orange-600 dark:text-orange-400 mb-2">1</div>
+                <div class="text-gray-600 dark:text-gray-400">AI Assistant</div>
             </div>
         </div>
     </div>

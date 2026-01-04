@@ -52,7 +52,7 @@ permalink: /fr/projects/ephos-audit-manager/
 </section>
 
 <!-- Comparaison avec EPHOS Core -->
-<section class="py-20 bg-gray-50 dark:bg-dark-bg">
+<section class="py-20 bg-gray-100 dark:bg-dark-navbar">
     <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-center mb-16 text-portfolio-violet">
             <i class="fas fa-balance-scale mr-3"></i>EPHOS Core vs Audit Manager
@@ -60,7 +60,7 @@ permalink: /fr/projects/ephos-audit-manager/
         
         <div class="grid md:grid-cols-2 gap-8">
             <!-- EPHOS Core -->
-            <div class="bg-white dark:bg-dark-navbar rounded-2xl shadow-xl p-8 border-2 border-purple-500">
+            <div class="bg-white dark:bg-dark-main rounded-2xl shadow-xl p-8 border-2 border-purple-500">
                 <div class="text-center mb-6">
                     <div class="inline-block p-4 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl mb-4">
                         <i class="fas fa-building text-white text-4xl"></i>
@@ -102,7 +102,7 @@ permalink: /fr/projects/ephos-audit-manager/
             </div>
 
             <!-- EPHOS Audit Manager -->
-            <div class="bg-white dark:bg-dark-navbar rounded-2xl shadow-xl p-8 border-2 border-indigo-500">
+            <div class="bg-white dark:bg-dark-main rounded-2xl shadow-xl p-8 border-2 border-indigo-500">
                 <div class="text-center mb-6">
                     <div class="inline-block p-4 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl mb-4">
                         <i class="fas fa-clipboard-check text-white text-4xl"></i>
