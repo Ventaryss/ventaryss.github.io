@@ -2,7 +2,7 @@
 layout: default
 title: "DDF - Drone de Fer"
 lang: fr
-permalink: /fr/projects/ddf/
+permalink: /projects/ddf/
 ---
 
 <!-- Hero Section -->

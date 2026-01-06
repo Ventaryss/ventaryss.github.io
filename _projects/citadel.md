@@ -2,7 +2,7 @@
 layout: default
 title: "CITADEL - Centre Interactif de Travaux et d'Apprentissage Dirigé En Ligne"
 lang: fr
-permalink: /fr/projects/citadel/
+permalink: /projects/citadel/
 ---
 
 <!-- Hero Section -->

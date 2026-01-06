@@ -2,7 +2,7 @@
 layout: default
 title: "AVALON - Atelier Virtuel d'Apprentissage et de Laboratoires Opérationnels Numériques"
 lang: fr
-permalink: /fr/projects/avalon/
+permalink: /projects/avalon/
 ---
 
 <!-- Hero Section -->

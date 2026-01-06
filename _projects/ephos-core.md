@@ -2,7 +2,7 @@
 layout: default
 title: "EPHOS Core - Enterprise Platform for Holistic Operations & Security"
 lang: fr
-permalink: /fr/projects/ephos-core/
+permalink: /projects/ephos-core/
 ---
 
 <!-- Hero Section -->
@@ -124,23 +124,6 @@ permalink: /fr/projects/ephos-core/
                     Génération automatique de rapports PDF, exports Excel/CSV, tableaux de bord personnalisables et KPIs en temps réel.
                 </p>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Architecture Technique -->
-<section class="py-20">
-    <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl font-bold text-center mb-16 text-portfolio-violet">
-            <i class="fas fa-code mr-3"></i>Architecture Technique
-        </h2>
-        
-        <div class="bg-white dark:bg-dark-main rounded-2xl shadow-xl p-12 text-center max-w-2xl mx-auto">
-            <i class="fas fa-lock text-6xl text-purple-500 mb-6"></i>
-            <h3 class="text-2xl font-bold mb-4 text-gray-800 dark:text-white">Information Confidentielle</h3>
-            <p class="text-gray-600 dark:text-gray-400">
-                Les détails techniques de l'architecture sont confidentiels et ne peuvent pas être divulgués publiquement.
-            </p>
         </div>
     </div>
 </section>
