@@ -9,9 +9,9 @@ lang: fr
 <section class="py-12 bg-gradient-to-br from-portfolio-violet/10 to-cyan-500/10">
     <div class="max-w-7xl mx-auto px-4 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
-            <i class="fas fa-envelope text-portfolio-violet mr-3"></i>Contact
+            <i class="fas fa-envelope text-portfolio-violet mr-3"></i><span data-i18n="contact_title">Contact</span>
         </h1>
-        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto" data-i18n="contact_subtitle">
             N'hésitez pas à me contacter pour toute question ou opportunité
         </p>
     </div>
@@ -24,7 +24,7 @@ lang: fr
             <!-- Contact Info -->
             <div>
                 <h2 class="text-3xl font-bold mb-8">
-                    <i class="fas fa-address-card text-portfolio-violet mr-3"></i>Informations de Contact
+                    <i class="fas fa-address-card text-portfolio-violet mr-3"></i><span data-i18n="contact_info_title">Informations de Contact</span>
                 </h2>
                 
                 <div class="space-y-6">
@@ -33,7 +33,7 @@ lang: fr
                             <i class="fas fa-envelope text-white"></i>
                         </div>
                         <div class="ml-4">
-                            <h3 class="font-bold text-lg mb-1">Email</h3>
+                            <h3 class="font-bold text-lg mb-1" data-i18n="contact_email">Email</h3>
                             <a href="mailto:{{ site.email }}" class="text-portfolio-violet hover:text-portfolio-violet-light transition">
                                 {{ site.email }}
                             </a>
@@ -55,15 +55,15 @@ lang: fr
                             <i class="fas fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ml-4">
-                            <h3 class="font-bold text-lg mb-1">Localisation</h3>
-                            <p class="text-gray-600 dark:text-gray-400">Bruz, Bretagne</p>
+                            <h3 class="font-bold text-lg mb-1" data-i18n="contact_location">Localisation</h3>
+                            <p class="text-gray-600 dark:text-gray-400" data-i18n="contact_location_value">Bruz, Bretagne</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Social Links -->
                 <h3 class="text-2xl font-bold mb-6 mt-12">
-                    <i class="fas fa-share-alt text-portfolio-violet mr-2"></i>Réseaux sociaux
+                    <i class="fas fa-share-alt text-portfolio-violet mr-2"></i><span data-i18n="contact_social">Réseaux sociaux</span>
                 </h3>
                 <div class="grid grid-cols-2 gap-4">
                     <a href="https://github.com/{{ site.github_username }}" target="_blank" 
@@ -86,27 +86,27 @@ lang: fr
             <!-- Contact Form -->
             <div>
                 <h2 class="text-3xl font-bold mb-8">
-                    <i class="fas fa-paper-plane text-cyan-500 mr-3"></i>Envoyez-moi un message
+                    <i class="fas fa-paper-plane text-cyan-500 mr-3"></i><span data-i18n="contact_form_title">Envoyez-moi un message</span>
                 </h2>
                 
                 <form id="contact-form-fr" action="https://formspree.io/f/mqagkvyz" method="POST" class="space-y-6">
                     <div>
-                        <label for="name" class="block text-sm font-semibold mb-2">Nom</label>
+                        <label for="name" class="block text-sm font-semibold mb-2" data-i18n="contact_form_name">Nom</label>
                         <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-dark-navbar focus:border-portfolio-violet focus:outline-none transition">
                     </div>
                     
                     <div>
-                        <label for="email" class="block text-sm font-semibold mb-2">Email</label>
+                        <label for="email" class="block text-sm font-semibold mb-2" data-i18n="contact_form_email">Email</label>
                         <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-dark-navbar focus:border-portfolio-violet focus:outline-none transition">
                     </div>
                     
                     <div>
-                        <label for="subject" class="block text-sm font-semibold mb-2">Sujet</label>
+                        <label for="subject" class="block text-sm font-semibold mb-2" data-i18n="contact_form_subject">Sujet</label>
                         <input type="text" id="subject" name="subject" required class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-dark-navbar focus:border-portfolio-violet focus:outline-none transition">
                     </div>
                     
                     <div>
-                        <label for="message" class="block text-sm font-semibold mb-2">Message</label>
+                        <label for="message" class="block text-sm font-semibold mb-2" data-i18n="contact_form_message">Message</label>
                         <textarea id="message" name="message" rows="6" required class="w-full px-4 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-dark-navbar focus:border-portfolio-violet focus:outline-none transition resize-none"></textarea>
                     </div>
                     
@@ -114,7 +114,7 @@ lang: fr
                     <input type="text" name="_gotcha" style="display:none">
                     
                     <button type="submit" id="submit-btn-fr" class="w-full bg-portfolio-violet hover:bg-portfolio-violet-light text-white font-bold py-4 px-8 rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
-                        <i class="fas fa-paper-plane mr-2"></i>Envoyer le message
+                        <i class="fas fa-paper-plane mr-2"></i><span data-i18n="contact_form_send">Envoyer le message</span>
                     </button>
                 </form>
                 
@@ -192,23 +192,23 @@ lang: fr
 <section class="py-20 bg-gray-100 dark:bg-dark-navbar">
     <div class="max-w-5xl mx-auto px-4">
         <h2 class="text-4xl font-bold text-center mb-12">
-            <i class="fas fa-calendar-check text-green-500 mr-3"></i>Disponibilité
+            <i class="fas fa-calendar-check text-green-500 mr-3"></i><span data-i18n="contact_availability">Disponibilité</span>
         </h2>
         
         <div class="bg-white dark:bg-dark-main p-8 rounded-xl shadow-lg text-center">
             <div class="inline-block px-6 py-3 bg-green-500 text-white rounded-full font-bold mb-6">
-                <i class="fas fa-check-circle mr-2"></i>En recherche d'opportunités post-diplôme
+                <i class="fas fa-check-circle mr-2"></i><span data-i18n="contact_availability_status">En recherche d'opportunités post-diplôme</span>
             </div>
-            <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+            <p class="text-lg text-gray-700 dark:text-gray-300 mb-4" data-i18n="contact_availability_desc">
                 Actuellement en dernière année d'ingénieur (diplôme juillet 2026), je recherche activement un poste dans les domaines suivants :
             </p>
             <div class="flex flex-wrap justify-center gap-3 mt-6">
-                <span class="px-4 py-2 bg-amber-500/10 text-amber-500 rounded-full font-semibold">Analyste SOC</span>
-                <span class="px-4 py-2 bg-portfolio-violet/10 text-portfolio-violet rounded-full font-semibold">Auditeur Cyber</span>
-                <span class="px-4 py-2 bg-green-500/10 text-green-500 rounded-full font-semibold">Consultant</span>
-                <span class="px-4 py-2 bg-cyan-500/10 text-cyan-500 rounded-full font-semibold">Freelance</span>
-                <span class="px-4 py-2 bg-blue-500/10 text-blue-500 rounded-full font-semibold">Collaboration</span>
-                <span class="px-4 py-2 bg-red-500/10 text-red-500 rounded-full font-semibold">CTF Teams</span>
+                <span class="px-4 py-2 bg-amber-500/10 text-amber-500 rounded-full font-semibold" data-i18n="contact_role_soc">Analyste SOC</span>
+                <span class="px-4 py-2 bg-portfolio-violet/10 text-portfolio-violet rounded-full font-semibold" data-i18n="contact_role_auditor">Auditeur Cyber</span>
+                <span class="px-4 py-2 bg-green-500/10 text-green-500 rounded-full font-semibold" data-i18n="contact_role_consultant">Consultant</span>
+                <span class="px-4 py-2 bg-cyan-500/10 text-cyan-500 rounded-full font-semibold" data-i18n="contact_role_freelance">Freelance</span>
+                <span class="px-4 py-2 bg-blue-500/10 text-blue-500 rounded-full font-semibold" data-i18n="contact_role_collab">Collaboration</span>
+                <span class="px-4 py-2 bg-red-500/10 text-red-500 rounded-full font-semibold" data-i18n="contact_role_ctf">CTF Teams</span>
             </div>
         </div>
     </div>
